@@ -25,11 +25,6 @@ public class CardTest {
     }
 
     @Test
-    public void canGeSuitValue(){
-        assertEquals(3, card.getSuit().getValueFromSuit());
-    }
-
-    @Test
     public void canGeRankValue(){
         assertEquals(12, card.getRank().getValueFromRank());
     }

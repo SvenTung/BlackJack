@@ -13,8 +13,13 @@ public class UI {
         return name;
     }
 
-    public void showHand(RankType rank, SuitType suit){
-        System.out.println("You have " + rank.toString() + " of " + suit.toString() + ".");
+    public String buildDisplayString(String message, RankType rank, SuitType suit){
+        message = message + " " + rank.getValueFromRank() + " of " + suit.toString() + " and ";
+        return message;
+    }
+
+    public void showHand(String message){
+        System.out.println(message);
     }
 
     public void showDealerCard(RankType rank, SuitType suit){

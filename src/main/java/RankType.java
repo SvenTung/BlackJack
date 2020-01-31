@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public enum RankType {
 
-    ACE(1),
+    ACE(11),
     TWO(2),
     THREE(3),
     FOUR(4),
@@ -12,9 +12,10 @@ public enum RankType {
     EIGHT(8),
     NINE(9),
     TEN(10),
-    JACK(11),
-    QUEEN(12),
-    KING(13);
+    JACK(10),
+    QUEEN(10),
+    KING(10);
+
 
     private final int value;
 

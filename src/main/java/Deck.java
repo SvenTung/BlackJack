@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 
 public class Deck {
 
@@ -10,7 +8,7 @@ public class Deck {
 
 
     public Deck(){
-        this.deck = new ArrayList<Card>();
+        this.deck = new ArrayList<>();
     }
 
     public void populate(){
