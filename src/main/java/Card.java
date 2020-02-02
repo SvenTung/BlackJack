@@ -1,3 +1,4 @@
+
 public class Card {
 
     private SuitType suit;
@@ -22,3 +23,4 @@ public class Card {
 
 
 }
+

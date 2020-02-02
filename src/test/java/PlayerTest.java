@@ -40,4 +40,11 @@ public class PlayerTest {
         assertEquals(arrayList, player.getHand());
     }
 
+    @Test
+    public void canChangeACEToONE(){
+        card = new Card(SuitType.HEARTS, RankType.ACE);
+        player.addCard(card);
+        player.getHand().get(0).setRank(RankType.ONE);
+        assertEquals(player.getValue(), 1);
+    }
 }

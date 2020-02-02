@@ -6,8 +6,6 @@ import static org.junit.Assert.assertEquals;
 public class CardTest {
 
     private Card card;
-    private RankType rank;
-    private SuitType suit;
 
     @Before
     public void before(){
