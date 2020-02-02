@@ -14,7 +14,8 @@ public enum RankType {
     TEN(10),
     JACK(10),
     QUEEN(10),
-    KING(10);
+    KING(10),
+    ONE(1);
 
 
     private final int value;
@@ -32,6 +33,7 @@ public enum RankType {
         for (RankType rank: RankType.values()){
             ranksArray.add(rank);
         }
+        ranksArray.remove(13);
         return ranksArray;
     }
 }

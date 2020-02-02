@@ -15,4 +15,10 @@ public class Card {
     public RankType getRank() {
         return this.rank;
     }
+
+    public void setRank(RankType rank) {
+        this.rank = rank;
+    }
+
+
 }
